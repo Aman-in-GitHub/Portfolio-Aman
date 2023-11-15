@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  transition: 0.4s ease-in-out, 0.2s background-color ease-in-out,
+    0.2s background-image ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .linkedin {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+  fill: #00a0dc;
+}
+
+.card:nth-child(2) .github {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.main:hover {
+  width: 180px;
+  cursor: pointer;
+}
+
+.main:hover .card {
+  margin: 0.5em;
+  border-radius: 4px;
+}
+
+.main:hover .ball {
+  opacity: 0;
+  z-index: -3;
+}
+
+.main:hover .linkedin {
+  opacity: 1;
+}
+
+.main:hover .github {
+  opacity: 1;
+}
+
+.ball {
+  position: absolute;
+  transition: 0.4s ease-in-out;
+  z-index: 3;
+}
