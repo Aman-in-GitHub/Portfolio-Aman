@@ -36,7 +36,7 @@ const Home = ({ hashLink }) => {
       />
 
       <div className="lg:w-[65%]">
-        <h3 className="text-3xl font-black md:text-6xl font-cursive animate-text  bg-gradient-to-r from-sky-500 via-pink-200 to-sky-600 text-transparent inline-block bg-clip-text">
+        <h3 className="text-3xl font-black md:text-6xl font-cursive animate-text  bg-gradient-to-r from-sky-500 via-pink-200 to-sky-600 text-transparent inline-block bg-clip-text whitespace-nowrap">
           Hello I'm Aman Chand
         </h3>
 
@@ -70,7 +70,7 @@ const Home = ({ hashLink }) => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-sky-400 duration-300" />
             <Cog className="absolute top-[-12px] right-[-12px] opacity-0 group-hover:scale-[1.8] md:group-hover:scale-[2.5] text-white duration-300 group-hover:rotate-12 group-hover:opacity-100" />
-            <span className="font-medium md:text-xl relative z-10 duration-300">
+            <span className="font-medium md:text-xl relative z-10 duration-300 whitespace-nowrap">
               View Projects
             </span>
           </button>
@@ -81,7 +81,7 @@ const Home = ({ hashLink }) => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-sky-400 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
             <User className="absolute top-[-10px] md:top-[-8px] right-[-8px] opacity-0 group-hover:scale-[1.1] md:group-hover:scale-[2] text-white duration-300 group-hover:rotate-12 group-hover:opacity-100" />
-            <span className="font-medium md:text-xl group-hover:text-white relative z-10 duration-300">
+            <span className="font-medium md:text-xl group-hover:text-white relative z-10 duration-300 whitespace-nowrap">
               Download CV
             </span>
           </a>
