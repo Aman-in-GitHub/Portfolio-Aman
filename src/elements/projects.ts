@@ -11,6 +11,16 @@ export const projects = [
     award: true
   },
   {
+    title: 'Serenity',
+    desc: `Serenity is an AI based conversation platform which helps you chat with various profiles like friend, parent, teacher etc. and lets you talk with full confidentiality and peace of mind.`,
+    tech: ['react-original', 'tailwindcss-plain', 'google-plain'],
+    type: 'web',
+    imageUrl: '/projects/serenity.png',
+    directLink: 'https://serenity-by-aman.netlify.app',
+    codeLink:
+      'https://github.com/Aman-in-GitHub/Serenity-FindPeaceInConversation'
+  },
+  {
     title: 'Kode',
     desc: `Kode is an open-source code compiler that supports over 15 programming languages, features multiple themes, allows code copying and downloading in various file formats.`,
     tech: ['react-original', 'tailwindcss-plain', 'nodejs-plain'],
@@ -49,16 +59,5 @@ export const projects = [
       'https://github.com/Aman-in-GitHub/VocaSearch-YourJobJustOneSearchAway/releases/tag/v1.0.0',
     codeLink:
       'https://github.com/Aman-in-GitHub/VocaSearch-YourJobJustOneSearchAway'
-  },
-  {
-    title: 'Serenity',
-    desc: `Serenity is an AI based conversation platform which helps you chat with various profiles like friend, parent, teacher etc. and lets you talk with full confidentiality and peace of mind.`,
-    tech: ['react-original', 'tailwindcss-plain', 'firebase-plain'],
-    type: 'web',
-    imageUrl: '/projects/serenity.png',
-    directLink: 'https://serenity-by-aman.netlify.app',
-    codeLink:
-      'https://github.com/Aman-in-GitHub/Serenity-FindPeaceInConversation',
-    loading: true
   }
 ];
