@@ -11,8 +11,8 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
         name: 'Aman',
-        short_name: 'Aman Portfolio',
-        theme_color: '#ffffff',
+        short_name: 'Aman',
+        theme_color: '#0f94ff',
         icons: [
           {
             src: 'pwa-64x64.png',
