@@ -87,7 +87,6 @@ const Navbar = ({ hashLink, activeSection }) => {
         className="fixed duration-300 top-0 w-full h-screen origin-top bg-gradient-to-r from-sky-500 to-sky-400 py-5 px-2 z-[1000] md:px-8 md:py-7 lg:hidden"
         style={{
           left: open ? '0%' : '100%',
-          overflow: 'open' ? 'hidden' : ''
         }}
       >
         <div className="flex h-full flex-col">
