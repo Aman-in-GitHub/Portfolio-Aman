@@ -51,8 +51,8 @@ const Navbar = ({ hashLink, activeSection }) => {
             <img src="/logo.svg" alt="Logo Of Aman" />
           </a>
         </div>
-        <div className="flex items-center gap-8 md:gap-12 lg:gap-16 px-2 md:px-8 lg:px-28">
-          <div className="lg:flex hidden gap-6">
+        <div className="flex items-center gap-8 md:gap-12 px-2 md:px-8 lg:px-28">
+          <div className="lg:flex hidden gap-5">
             {navLinks.map((link) => {
               const gradientStyle = {
                 backgroundImage:
@@ -66,7 +66,7 @@ const Navbar = ({ hashLink, activeSection }) => {
                 <button
                   key={link.href}
                   onClick={() => hashLink(link.href)}
-                  className="text-[28px] font-bold font-cursive rounded-sm flex items-center px-4 py-1"
+                  className="text-[24px] font-bold font-cursive rounded-sm flex items-center px-4 py-1"
                   style={gradientStyle}
                 >
                   {link.title}
@@ -100,11 +100,11 @@ const Navbar = ({ hashLink, activeSection }) => {
               <X className="scale-[1.5]" />
             </p>
           </div>
-          <div className="flex flex-col h-full justify-center items-center gap-6 overflow-hidden mt-[-20px]">
+          <div className="flex flex-col h-full justify-center items-center gap-6 overflow-hidden mt-[-15px]">
             {navLinks.map((link, index) => {
               return (
                 <div className="overflow-hidden" key={index}>
-                  <div className="text-6xl font-cursive font-black text-white leading-snug underline-offset-[5px]">
+                  <div className="text-[55px] font-texts font-black text-white leading-snug underline-offset-[6px]">
                     <button
                       onClick={() => {
                         toggleMenu();
@@ -122,10 +122,10 @@ const Navbar = ({ hashLink, activeSection }) => {
             })}
             <div className="flex items-center justify-between px-16 my-12 w-full">
               <a href="https://linkedin.com/in/amanchandinc" target="_blank">
-                <Linkedin className="scale-[2.69] text-white" />
+                <Linkedin className="scale-[2.5] text-white" />
               </a>
               <a href="https://github.com/Aman-in-GitHub" target="_blank">
-                <Github className="scale-[2.69] text-white" />
+                <Github className="scale-[2.5] text-white" />
               </a>
             </div>
           </div>
